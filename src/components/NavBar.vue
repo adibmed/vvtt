@@ -1,4 +1,7 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+  import SocialMedia from './SocialMedia.vue'
+  import ThemeToggler from './ThemeToggler.vue'
+</script>
 
 <template>
   <nav
@@ -7,15 +10,15 @@
     <div class="flex items-center px-1 mx-auto max-w-7xl sm:px-3 lg:px-6 py-4">
       <div class="flex-1">
         <span class="text-lg font-semibold text-gray-700 dark:text-gray-200"
-          ><nuxt-link :to="{ name: 'index' }">Adibe Mohamed</nuxt-link></span
+          ><router-link to="/">Adibe Mohamed</router-link></span
         >
       </div>
       <div class="flex-1 flex items-center justify-end">
         <div class="pl-4 text-gray-500 hover:text-green-400 text-lg dark:text-gray-300">
-          <nuxt-link :to="{ name: 'blog' }">blog</nuxt-link>
+          <router-link to="/blog">blog</router-link>
         </div>
-        <SocialIcons />
-        <ThemeToggler />
+        <social-media />
+        <theme-toggler />
       </div>
     </div>
   </nav>
