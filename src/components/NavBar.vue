@@ -39,7 +39,7 @@
       <div>
         <a
           class="flex items-center text-gray-600 hover:text-amber-600 delay-100"
-          href="https://github.com/adibemohamed/vue3-starter-kit"
+          href="https://github.com/adibemohamed/vvtt"
           target="_blank"
         >
           <span class="mr-2">Github</span>
