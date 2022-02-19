@@ -1,10 +1,27 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="h-full flex items-center justify-center min-h-screen -mt-24">
-    <div class="max-w-3xl w-full flex items-center justify-between">
+  <div class="h-full flex flex-col items-center pt-44 min-h-screen -mt-20">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      aria-hidden="true"
+      role="img"
+      class="w-12 sm:w-44 h-12 sm:h-44 text-gray-600"
+      width="32"
+      height="32"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M14 12c0 1.1-.9 2-2 2s-2-.9-2-2s.9-2 2-2s2 .9 2 2m-7-2c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m10 0c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m-2.5-4c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m-5 0c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m5 8c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m-5 0c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m2.5 4c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m2.4-15.8L13.6 1c-2.2 1-2.4 4.6-2.4 5h1.5c.1-.8.4-3.3 1.7-3.8z"
+        fill="currentColor"
+      ></path>
+    </svg>
+    <div class="text-xl sm:text-5xl pb-20 pt-12 font-medium text-gray-600">Vue 3 Starter Kit</div>
+    <div class="max-w-xl w-full flex items-center justify-between">
       <svg
-        class="w-12 sm:w-32 h-12 sm:h-32"
+        class="w-12 sm:w-20 h-12 sm:h-20"
         viewBox="0 0 128 128"
         width="24"
         height="24"
@@ -23,7 +40,7 @@
       </svg>
 
       <svg
-        class="w-12 sm:w-32 h-12 sm:h-32"
+        class="w-12 sm:w-20 h-12 sm:h-20"
         id="Layer_1"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 400 400"
@@ -37,8 +54,7 @@
         />
       </svg>
 
-      <svg class="w-12 sm:w-32 h-12 sm:h-32" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-        <title>Tailwind CSS</title>
+      <svg class="w-12 sm:w-20 h-12 sm:h-20" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
         <path
           fill="#14B4C6"
           d="M32 16.3c-7.2 0-11.7 3.6-13.5 10.8 2.7-3.6 5.85-4.95 9.45-4.05 2.054.514 3.522 2.004 5.147 3.653C35.744 29.39 38.808 32.5 45.5 32.5c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.514-3.522-2.004-5.147-3.653C41.756 19.41 38.692 16.3 32 16.3zM18.5 32.5c-7.2 0-11.7 3.6-13.5 10.8 2.7-3.6 5.85-4.95 9.45-4.05 2.054.514 3.522 2.004 5.147 3.653C22.244 45.59 25.308 48.7 32 48.7c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.514-3.522-2.004-5.147-3.653C28.256 35.61 25.192 32.5 18.5 32.5z"
@@ -46,7 +62,7 @@
       </svg>
 
       <svg
-        class="w-12 sm:w-32 h-12 sm:h-32"
+        class="w-12 sm:w-20 h-12 sm:h-20"
         width="410"
         height="404"
         viewBox="0 0 410 404"
